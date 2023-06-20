@@ -20,6 +20,9 @@ const HALF_LIFE_PERIOD = 5730;
 function dateSample(/* sampleActivity */) {
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+
+  //(MODERN_ACTIVITY / str) / (0.693 / HALF_LIFE_PERIOD)
+  //Math.log((MODERN_ACTIVITY / str))
 }
 
 module.exports = {
