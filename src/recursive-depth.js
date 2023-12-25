@@ -17,7 +17,7 @@ class DepthCalculator {
     let depth = 0;
     if (Array.isArray(arr)) {
       for (let i in arr) {
-        depth = Math.max(depth, this.calculateDepth(arr[i])); // Use "this.calculateDepth"
+        depth = Math.max(depth, this.calculateDepth(arr[i]));
       }
       depth++;
     }
